@@ -1,0 +1,13 @@
+body { font-family: sans-serif; background: #f4f6f8; margin: 20px; color: #333; }
+.container { display: flex; gap: 20px; align-items: flex-start; }
+.left-panel { flex: 2; background: white; padding: 20px; border-radius: 8px; border: 1px solid #ccc; }
+.right-panel { flex: 1; background: white; padding: 20px; border-radius: 8px; border: 1px solid #ccc; }
+.controls { display: flex; justify-content: space-between; margin-bottom: 15px; gap: 10px; }
+input, select { width: 100%; padding: 8px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+button { padding: 8px 12px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #e9ecef; }
+#addBtn, #saveBtn { background: #d4edda; border-color: #c3e6cb; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+.error { color: red; font-size: 0.9em; margin-top: 10px; }
+.form-actions { display: flex; gap: 10px; }
+.action-btn { margin-right: 5px; cursor: pointer; }
