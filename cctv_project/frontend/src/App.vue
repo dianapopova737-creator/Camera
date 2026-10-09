@@ -6,7 +6,7 @@
       <button class="icon-btn" @click="errorMessage = ''">✕</button>
     </div>
 
-    <!-- Верхний блок: Таблица и Форма (по макету) -->
+    <!-- Верхний блок: Таблица и Форма  -->
     <div class="top-grid">
       <!-- Список источников -->
       <div class="window-card">
@@ -133,7 +133,7 @@
       </div>
     </div>
 
-    <!-- Нижний блок: Карточка выбранного источника (по макету) -->
+    <!-- Нижний блок: Карточка выбранного источника  -->
     <div class="window-card" v-if="selectedSource">
       <div class="window-header">Карточка источника / Редактирование</div>
       <div class="window-body">
